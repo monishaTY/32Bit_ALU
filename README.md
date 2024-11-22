@@ -34,7 +34,8 @@ A Blank Document opens up into which the following source code can be typed down
 
 ## Source Code – Using Case Statement :
 
-(Include program here)
+![image](https://github.com/user-attachments/assets/f4084858-f1a4-4bea-bb3b-9388c51d3bfc)
+
 
 Use Save option or Ctrl+S to save the code or click on the save option from the top most right corner and close the text file.
 
@@ -44,7 +45,8 @@ Similarly, create your test bench using gedit <filename_tb>.v or <filename_tb>.v
 
 ## Test Bench :
 
-(Include test bench program here)
+![image](https://github.com/user-attachments/assets/901f1e62-4758-4244-aca2-6768021e01d6)
+
 
 Use Save option or Ctrl+S to save the code or click on the save option from the top most right corner and close the text file.
 
@@ -72,12 +74,14 @@ or
 
 
 It will invoke the nclaunch window for functional simulation we can compile,elaborate and simulate it using Multiple Step .
+![image](https://github.com/user-attachments/assets/4e334d42-4d46-45da-a85c-269878ef5a11)
 
 ### Fig 3: Setting Multi-step simulation
 
 Select Multiple Step and then select “Create cds.lib File” as shown in below figure 
 
 Click the cds.lib file and save the file by clicking on Save option 
+![image](https://github.com/user-attachments/assets/89bb7f83-02be-4fc1-81c0-692452d7f187)
 
 ### Fig 4:cds.lib file Creation
 
@@ -100,6 +104,7 @@ Left side you can see the HDL files. Right side of the window has worklib and sn
 Worklib is the directory where all the compiled codes are stored while Snapshot will have output of elaboration which in turn goes for simulation .
 
 To perform the function simulation, the following three steps are involved Compilation, Elaboration and Simulation. 
+![image](https://github.com/user-attachments/assets/e1efe615-1058-44cd-b92e-93b192122961)
 
 ### Fig 6: Nclaunch Window
 
@@ -124,10 +129,10 @@ i.e Cadence IES command for compile: ncverilog +access+rwc -compile fa.v
 Left side select the file and in Tools : launch verilog compiler with current selection will get enable. Click it to compile the code 
 
 Worklib is the directory where all the compiled codes are stored while Snapshot will have output of elaboration which in turn goes for simulation 
+![image](https://github.com/user-attachments/assets/32dcf110-1431-4744-af72-69fe23b39a7c)
 
 ### Fig 7: Compiled database in worklib
 
-![exp3 pdvlsi_085237](https://github.com/user-attachments/assets/4b493de9-8c2a-4fed-b486-ca1fdea7d2ed)
 
 
 After compilation it will come under worklib you can see in right side window
@@ -161,7 +166,7 @@ Outputs: Elaborate database updated in mapped library if successful, generates r
 5.It also establishes net connectivity and prepares all of this for simulation
 
 After elaboration the file will come under snapshot. Select the test bench and simulate it.
-
+![exp3 pdvlsi_085237](https://github.com/user-attachments/assets/4b493de9-8c2a-4fed-b486-ca1fdea7d2ed)
 ## Fig 8: Elaboration Launch Option
 
 
@@ -176,15 +181,15 @@ Outputs: Simulation log file, waveforms for debugging
 Simulation allow to dump design and test bench signals into a waveform 
 
 Steps for simulation – Run the simulation command with simulator options
+![image](https://github.com/user-attachments/assets/eb42d92f-717b-40ea-af58-ce482ec9722d)
 
 ## Fig 9: Design Browser window for simulation
+![image](https://github.com/user-attachments/assets/e18cc894-920a-41be-8bfc-529a21a1638f)
 
 ## Fig 10:Simulation Waveform Window
-![exp3 output pdvlsi_085155](https://github.com/user-attachments/assets/686876c0-5384-4e44-8226-37e21451a5af)
-
-
-## Fig 11:Simulation Waveform Window
-
+![image](https://github.com/user-attachments/assets/74d289f3-935e-4a86-ad13-525466f8b1b4)
+## Result
+The functionality of a 32-bit ALU was successfully verified using a test bench and simulated with the nclaunch tool.
 
 
 
